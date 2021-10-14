@@ -1,0 +1,404 @@
+body,
+div,
+h2,
+p,
+ul,
+li,
+a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+}
+
+#images {
+    background: -webkit-linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%);
+    background: -moz-linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%);
+    background: -o-linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%);
+    background: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%);
+    height: 100vh;
+    left: 0;
+    min-height: 570px;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+#images div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 570px;
+    position: absolute;
+    width: 100vw;
+    z-index: 10;
+}
+
+.image {
+    opacity: 0;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+.image-0 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/himani.jpg');
+}
+
+.image-1 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/maininder.jpg');
+}
+
+.image-2 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/dhruv.jpg');
+}
+
+.image-3 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/kajal.jpg');
+}
+
+.image-4 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/paridhi.jpg');
+}
+
+.image-5 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/dheeraj.jpg');
+}
+
+.image-6 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/vipul.jpg');
+}
+
+.image-7 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/jigyasu.jpg');
+}
+
+.image-8 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/swareena.jpg');
+}
+
+.image-9 {
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.529) 0%, rgba(0, 0, 0, 0.129) 36%), url('../images/kshitij.jpg');
+}
+
+#mobile-para,
+#buttons-mobile {
+    display: none;
+}
+
+#content {
+    background: -moz-linear-gradient(90deg, #000000 10%, transparent 73%);
+    background: -webkit-linear-gradient(90deg, #000000 10%, transparent 73%);
+    background: -o-linear-gradient(90deg, #000000 10%, transparent 73%);
+    background: linear-gradient(90deg, #000000 10%, transparent 73%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    letter-spacing: 0.125rem;
+    min-height: 570px;
+    padding: 2.125rem 0 0 2.125rem;
+    position: relative;
+    text-shadow: 0.177rem 0.177rem 0.125rem rgba(0, 0, 0, 0.369);
+    width: 47%;
+    z-index: 100;
+}
+
+.headings {
+    font-size: 2em;
+    min-width: 650px;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 400;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    top: 2.125rem;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.bottom-content {
+    bottom: 5vh;
+    font-size: 1em;
+    position: absolute;
+}
+
+#para {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+#join {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.buttons {
+    cursor: default;
+    margin-bottom: 4.5rem;
+    padding: 0;
+}
+
+.buttons li {
+    display: inline-block;
+    margin: 0.375rem;
+    max-width: calc(100% - 0.75rem);
+    vertical-align: middle;
+}
+
+.buttons li a {
+    align-items: center;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    font-size: 0.875em;
+    font-weight: 400;
+    height: 2.5rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    max-width: 100%;
+    padding: 0 1.25rem;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 13.75rem;
+    white-space: nowrap;
+}
+
+.button {
+    background-color: rgba(0, 128, 128, 0.431);
+    color: #FFFFFF;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: #003738 !important;
+}
+
+#code {
+    font-size: 0.6em;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+    line-height: 1.25;
+    text-shadow: 0.088rem 0.088rem 0.125rem #000000;
+}
+
+.opacity_one {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.opacity_zero {
+    opacity: 0;
+}
+
+@media (max-width: 2500px) {
+    body {
+        font-size: 2em;
+    }
+    .buttons li a {
+        height: 4.5rem;
+        width: 25.75rem;
+    }
+    #images {
+        min-height: 850px;
+    }
+    #images div {
+        min-height: 850px;
+    }
+    #content {
+        min-height: 850px;
+    }
+}
+
+@media (max-width: 2000px) {
+    body {
+        font-size: 1.5em;
+    }
+    #images {
+        min-height: 800px;
+    }
+    #images div {
+        min-height: 800px;
+    }
+    #content {
+        min-height: 800px;
+    }
+}
+
+@media (max-width: 1500px) {
+    body {
+        font-size: 1em;
+    }
+    .buttons li a {
+        height: 2.5rem;
+        width: 13.75rem;
+    }
+    #images {
+        min-height: 570px;
+    }
+    #images div {
+        min-height: 570px;
+    }
+    #content {
+        min-height: 570px;
+    }
+}
+
+@media (max-width: 1030px) {
+    body {
+        font-size: 1.2em;
+    }
+    #images {
+        max-height: 60vh;
+        min-height: 200px;
+        position: relative;
+    }
+    #images div {
+        max-height: 60vh;
+        min-height: 200px;
+    }
+    .image-0 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/himani.jpg');
+    }
+    .image-1 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/maininder.jpg');
+    }
+    .image-2 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/dhruv.jpg');
+    }
+    .image-3 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/kajal.jpg');
+    }
+    .image-4 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/paridhi.jpg');
+    }
+    .image-5 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/dheeraj.jpg');
+    }
+    .image-6 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/vipul.jpg');
+    }
+    .image-7 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/jigyasu.jpg');
+    }
+    .image-8 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/swareena.jpg');
+    }
+    .image-9 {
+        background-image: linear-gradient(360deg, #000000 0%, transparent 72%), url('../images/kshitij.jpg');
+    }
+    #content {
+        background-color: black;
+        background: -moz-linear-gradient(360deg, #000000 0%, transparent 72%);
+        background: -webkit-linear-gradient(360deg, #000000 0%, transparent 72%);
+        background: -o-linear-gradient(360deg, #000000 0%, transparent 72%);
+        background: linear-gradient(360deg, #000000 0%, transparent 72%);
+        height: auto;
+        margin-top: 0;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    h2 {
+        margin-bottom: 1em;
+        min-height: 100px;
+        top: 0;
+        width: 100%;
+    }
+    .bottom-content {
+        bottom: 5vh;
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    #content {
+        bottom: 0;
+    }
+    #content {
+        min-height: 450px;
+    }
+    #mobile-para,
+    #buttons-mobile {
+        display: block;
+    }
+    #mobile-para,
+    #code {
+        color: #757575;
+    }
+    #mobile-para {
+        margin-bottom: 5em;
+    }
+    #buttons-mobile {
+        margin-bottom: 2em;
+    }
+    .buttons li a {
+        font-size: 1em;
+        font-weight: 600;
+        height: 3.5rem;
+        width: 17.75rem;
+    }
+    #para,
+    #buttons,
+    #join {
+        display: none;
+    }
+    #images {
+        max-height: 40vh;
+    }
+    #images div {
+        max-height: 40vh;
+    }
+    h2 {
+        color: #757575;
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    #mobile-para {
+        margin-bottom: 8em;
+    }
+}
+
+@media (max-width: 280px) {
+    body {
+        font-size: .9em;
+    }
+    h2 {
+        font-size: 0.7em;
+    }
+    #buttons-mobile {
+        margin-bottom: 3em;
+    }
+}
